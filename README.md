@@ -2,12 +2,11 @@
 
 ## Ruby Versions
 
-This code is known to work with Ruby versions >= 2.6.5 Versions of Ruby < 2.6.5 may not work with this calculator, and <= 2.5.x are known to not work properly.
-
+This code is known to work with Ruby versions >= 2.6.5 Versions of Ruby < 2.6.5 may not work with this calculator, and <= 2.5.x are known to not work properly. The Ruby version for this code is set to 3.1.4, but you can update the .ruby-version file to use whatever Ruby you have installed that's >= 2.6.5.
 ## How to use the calculator
 
 * To launch the calculator, change to the application's root dir and type `ruby app/calc.rb`.
-* At the `>` prompt, enter numeric values and/or supported arithemetic operators in correct Reverse Polish Notation order. You can enter a single value at a time, or a sequence of values.
+* At the `>` prompt, enter numeric values and/or supported arithmetic operators in correct Reverse Polish Notation order. You can enter a single value at a time, or a sequence of values.
 * The current supported arithmetic operators are +, -, * (multiplication) and / (division).
 * Positive and negative values are supported.
 * Decimals are supported.
